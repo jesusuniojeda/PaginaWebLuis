@@ -1,0 +1,401 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+header {
+
+    background-color: #fff;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+}
+
+
+
+nav .logo img {
+
+    height: 50px;
+
+}
+
+
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: #000;
+
+    font-weight: bold;
+
+}
+
+
+
+nav .cta {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+nav .cta .button {
+
+    background-color: #f00;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+
+
+.hero {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 50px 20px;
+
+    background-color: #f8f8f8;
+
+}
+
+
+
+.hero .text h1 {
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin: 0;
+
+}
+
+
+
+.hero .image img {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.highlights {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 20px 0;
+
+    background-color: #eee;
+
+}
+
+
+
+.highlight {
+
+    text-align: center;
+
+}
+
+
+
+.highlight img {
+
+    width: 50px;
+
+    height: auto;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+footer {
+
+    background-color: #333;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 20px 0;
+
+}
+
+
+
+footer p {
+
+    margin: 0;
+
+}
+
+
+
+/* Facilidades */
+
+.facilidades {
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+}
+
+
+
+.join-button {
+
+    background-color: #f00;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* Tarifas */
+
+.tarifas {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 50px 20px;
+
+}
+
+
+
+.tarifa {
+
+    background-color: #f8f8f8;
+
+    border: 1px solid #ddd;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 30%;
+
+    text-align: center;
+
+}
+
+
+
+.tarifa h2 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.tarifa p {
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Entrenadores */
+
+.entrenadores {
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+}
+
+
+
+.entrenadores h1 {
+
+    font-size: 36px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.entrenadores p {
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.full-list-button {
+
+    background-color: #f00;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* Agendar Tour */
+
+.agendar-tour {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    padding: 50px 20px;
+
+    text-align: center;
+
+}
+
+
+
+.agendar-tour h1 {
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.agendar-tour form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+
+
+.agendar-tour form label {
+
+    font-weight: bold;
+
+}
+
+
+
+.agendar-tour form input {
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+}
+
+
+
+.agendar-tour form button {
+
+    background-color: #f00;
+
+    color: #fff;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
